@@ -10,12 +10,10 @@ export const Works = () => {
             <div className={`${sContainer.container} ${s.containerWorks}`}>
                 <h1 className={s.title}>My works</h1>
                 <div className={s.works}>
-                    <Work picture={'https://avatars.mds.yandex.net/get-zen_doc/1780598/pub_5d3eef5a35c8d800b90ad930_5d3ef5f97b4bd200aeadaaa7/scale_1200'}
-                          link={'https://zhirkovpetr.github.io/TodoList'}
-                          title={'Todo list'} description={'My todo list'}/>
-                    <Work picture={'https://avatars.mds.yandex.net/get-zen_doc/3122622/pub_5ea4546301d7556f42e95e42_5ea46100be4daf0fa6cf53ab/scale_1200'}
-                          link={'https://zhirkovpetr.github.io/social-network'}
-                          title={'Social network'} description={'My social network'}/>
+                    <Work picture={''} link={'https://zhirkovpetr.github.io/TodoList'}
+                          title={'Todo list'} description={'My todo list will help you not to forget about your business'}/>
+                    <Work picture={''} link={'https://zhirkovpetr.github.io/social-network'}
+                          title={'Social network'} description={'My social network is an opportunity to communicate with friends, listen to music, exchange photos and likes, as well as make new acquaintances. My social network is an opportunity to communicate with friends, listen to music, exchange photos and likes, as well as make new acquaintances. My social network is an opportunity to communicate with friends, listen to music, exchange photos and likes, as well as make new acquaintances.'}/>
                 </div>
             </div>
         </div>

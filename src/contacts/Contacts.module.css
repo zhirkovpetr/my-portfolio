@@ -14,7 +14,18 @@
 }
 
 .form {
-    width: 80%;
+    width: 300px;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
+
+.form input {
+    margin-bottom: 2px;
+}
+@media only screen and (max-width: 360px) {
+    .form{
+        width: 280px;
+    }}
