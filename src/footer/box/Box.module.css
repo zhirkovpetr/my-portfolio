@@ -1,0 +1,6 @@
+.box {
+    width: 30px;
+    height: 30px;
+    flex-wrap: wrap;
+}
+
