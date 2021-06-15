@@ -1,0 +1,23 @@
+.title {
+    margin: 0 0 30px;
+    color: #2d3038;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    position: relative;
+}
+
+.title h1{
+    margin: 0;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    background-color: #f26522;
+    width: 75px;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
