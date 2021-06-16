@@ -1,0 +1,25 @@
+@import './src/common/styles/sass/variables';
+
+.BlockInformation {
+  margin-bottom: 35px;
+
+  & h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $TitleColor;
+    font-family: $titleFontFamily;
+  }
+
+  .textInfo {
+    font-size: 14px;
+    line-height: 24px;
+    color: $TitleColor;
+  }
+}
+
+
+
+
+
+

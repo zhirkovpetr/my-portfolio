@@ -1,0 +1,38 @@
+@import '../common/styles/sass/variables.scss';
+
+.skillsBlock {
+  padding-top: 80px;
+  min-height: 100vh;
+  background-color: $bgColor;
+  box-sizing: border-box;
+  width: 100%;
+
+  .containerSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: nowrap;
+
+    .skills {
+      display: flex;
+      justify-content: inherit;
+      flex-wrap: wrap;
+      width: 60%;
+      padding-left: 15px;
+      padding-right: 15px;
+      align-items: flex-start;
+      @media screen and (max-width: 848px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

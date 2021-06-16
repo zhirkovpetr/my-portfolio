@@ -1,0 +1,49 @@
+@import '../../common/styles/sass/variables.scss';
+
+.skillSection {
+  margin: auto;
+
+  .list {
+    list-style: none;
+
+    .chart {
+      float: left;
+
+      & + li {
+        margin-left: 45px;
+      }
+
+      .percent {
+        display: inline-block;
+        text-align: center;
+        width: 116px;
+        height: 116px;
+        line-height: 116px;
+        background-color: #f7941d;
+        border-radius: 50%;
+        color: $bgColor;
+        font-size: 36px;
+        font-weight: 700;
+
+        &:after {
+          content: '%';
+        }
+      }
+
+      & h5 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,16 +1,17 @@
 .contactsBlock {
-    height: 100vh;
-    background-color: #ecafdf;
+    padding-top: 80px;
+    min-height: 100vh;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .containerContacts {
-    flex-direction: column;
-    justify-content: flex-start;
-
-}
-
-.title {
-    background-color: #f3f379;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: nowrap;
 }
 
 .form {
@@ -19,6 +20,32 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contactForm {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.formControl {
+    padding: 6px 25px 6px 20px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    box-shadow: none;
+    color: #2d3038;
+    font-size: 14px;
+    background-color: #f2f2f2;
 }
 
 .form input {
@@ -28,3 +55,18 @@
     .form{
         width: 50%;
     }}
+
+.pushForm {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.bottom {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: #ff0;
+    border: 1px solid #3c70b4;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}

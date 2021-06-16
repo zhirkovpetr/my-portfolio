@@ -1,0 +1,36 @@
+@import '../common/styles/sass/variables.scss';
+
+.worksBlock {
+  padding-top: 80px;
+  min-height: 100vh;
+  background-color: $bgColor;
+  box-sizing: border-box;
+  width: 100%;
+
+  .containerWorks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: nowrap;
+
+    .works {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 60%;
+      padding-left: 15px;
+      padding-right: 15px;
+      @media screen and (min-width: 1119px) {
+        justify-content: space-evenly;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

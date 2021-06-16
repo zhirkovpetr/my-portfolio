@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+@mixin text($fontSize, $lineHeight, $titleColor, $fontWeight) {
+  font-family: $titleFontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $titleColor;
+  font-weight: $fontWeight;
+}
+
+@mixin picture() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
