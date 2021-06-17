@@ -1,6 +1,6 @@
 import s from './Main.module.css';
 import sContainer from '../common/styles/Container.module.css'
-import MyImage from './../assets/pictures/2.png'
+import MyImage from './../assets/pictures/Fotoram.io.png'
 
 export const Main = () => {
     const myImages = {
