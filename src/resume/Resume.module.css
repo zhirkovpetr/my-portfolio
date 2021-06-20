@@ -1,0 +1,73 @@
+.resumeBlock {
+    padding-top: 80px;
+    min-height: 100vh;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.containerResume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+.buttonBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.resumeButton{
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    background-color: #ed1c24;
+    border: 1px solid #9a1a20;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+}
+
+.Inform{
+    margin-bottom: 25px;
+}
+
+.Inform h3{
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #2d3038;
+}
+
+.Inform h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2d3038;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Inform p {
+    margin: 0 0 10px;
+}
+
+.Inform hr {
+    margin: 10px 0 25px 0;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+}

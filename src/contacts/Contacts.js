@@ -21,37 +21,39 @@ export const Contacts = () => {
                                     <div className={s.col}>
                                         <div className={s.minForm}>
                                             <div className={s.formGroup}>
-                                                <input className={s.formControl} type={'text'} name={'your-name'}
-                                                       value='' size={'40'}
+                                                <input className={s.formControl} type='text' name={'your-name'}
+                                                       size={'40'}
                                                        placeholder='Your Name' aria-required='true'
-                                                       aria-invalid='false'/>
+                                                       aria-invalid='false'
+                                                style={{width: '85%', marginRight: '10px'}}/>
                                             </div>
-                                        </div>
-                                        <div className={s.minForm}>
                                             <div className={s.formGroup}>
-                                                <input className={s.formControl} type={'text'}
-                                                       name={'your email address'} value=''
+                                                <input className={s.formControl} type='text'
+                                                       name={'your email address'}
                                                        size={'40'} placeholder='Your Email Address' aria-required='true'
-                                                       aria-invalid='false'/>
+                                                       aria-invalid='false'
+                                                       style={{width: '85%'}}/>
                                             </div>
                                         </div>
                                         <div className={s.maxForm}>
                                             <div className={s.formGroup}>
-                                                <input className={s.formControl} type={'text'} name={'subject'}
-                                                       value='' size={'40'}
-                                                       placeholder='Subject' aria-required='true' aria-invalid='false'/>
+                                                <input className={s.formControl} type='text' name={'subject'}
+                                                       size={'40'}
+                                                       placeholder='Subject' aria-required='true' aria-invalid='false'
+                                                       style={{width: '100%'}}/>
                                             </div>
                                         </div>
                                         <div className={s.maxForm}>
                                             <div className={s.formGroup}>
-                            <textarea style={{resize: 'none', height: '125px'}} className={s.formControl} name='message' cols='40' rows='10' aria-required='true'
-                                      aria-invalid='false' placeholder='Your Message'/>
+                                               <textarea style={{resize: 'none', height: '125px', width: '100%'}} className={s.formControl} name='message' cols='40' rows='10' aria-required='true'
+                                               aria-invalid='false' placeholder='Your Message'/>
                                             </div>
                                         </div>
+                                        <div className={s.pushForm}>
+                                            <input className={s.bottom} type={'submit'} value={'Submit'}/>
+                                        </div>
                                     </div>
-                                    <div className={s.pushForm}>
-                                        <input className={s.bottom} type={'submit'} value={'Submit'}/>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

@@ -6,3 +6,11 @@
     align-items: center;
 }
 
+.name h3{
+    font-family: 'Sacramento', cursive;
+    margin: 0 0 10px;
+    color: #2d3038;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
