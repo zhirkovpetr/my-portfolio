@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3b373a9b.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.0d7b2b79.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.0d7b2b79.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.b43398a2.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.b43398a2.js.map",
-    "static/js/2.cdd5f05a.chunk.js": "/my-portfolio/static/js/2.cdd5f05a.chunk.js",
-    "static/js/2.cdd5f05a.chunk.js.map": "/my-portfolio/static/js/2.cdd5f05a.chunk.js.map",
-    "static/js/3.19315f18.chunk.js": "/my-portfolio/static/js/3.19315f18.chunk.js",
-    "static/js/3.19315f18.chunk.js.map": "/my-portfolio/static/js/3.19315f18.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.29377b39.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.fc3b3b95.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.fc3b3b95.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.e616d614.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.e616d614.js.map",
+    "static/js/2.17ad3b81.chunk.js": "/my-portfolio/static/js/2.17ad3b81.chunk.js",
+    "static/js/2.17ad3b81.chunk.js.map": "/my-portfolio/static/js/2.17ad3b81.chunk.js.map",
+    "static/js/3.b92ee405.chunk.js": "/my-portfolio/static/js/3.b92ee405.chunk.js",
+    "static/js/3.b92ee405.chunk.js.map": "/my-portfolio/static/js/3.b92ee405.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.3b373a9b.chunk.css.map": "/my-portfolio/static/css/main.3b373a9b.chunk.css.map",
-    "static/js/2.cdd5f05a.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.cdd5f05a.chunk.js.LICENSE.txt",
-    "static/media/2.5ad8f1b0.png": "/my-portfolio/static/media/2.5ad8f1b0.png",
+    "static/css/main.29377b39.chunk.css.map": "/my-portfolio/static/css/main.29377b39.chunk.css.map",
+    "static/js/2.17ad3b81.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.17ad3b81.chunk.js.LICENSE.txt",
+    "static/media/Fotoram.io.02c01f75.png": "/my-portfolio/static/media/Fotoram.io.02c01f75.png",
     "static/media/social1.4bfac63e.jpg": "/my-portfolio/static/media/social1.4bfac63e.jpg",
     "static/media/tdlst.97cefdea.jpg": "/my-portfolio/static/media/tdlst.97cefdea.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b43398a2.js",
-    "static/js/2.cdd5f05a.chunk.js",
-    "static/css/main.3b373a9b.chunk.css",
-    "static/js/main.0d7b2b79.chunk.js"
+    "static/js/runtime-main.e616d614.js",
+    "static/js/2.17ad3b81.chunk.js",
+    "static/css/main.29377b39.chunk.css",
+    "static/js/main.fc3b3b95.chunk.js"
   ]
 }
