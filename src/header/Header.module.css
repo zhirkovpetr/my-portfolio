@@ -1,8 +1,14 @@
-.header{
-    background-color: #2d3038;
+.header {
+    background: rgba(45, 48, 56, 1);
+    background: -moz-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
+    background: -o-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
+    background: linear-gradient(to right, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d3038', endColorstr='#13376a', GradientType=1);
 }
 
-.blockName{
+.blockName {
     font-family: 'Sacramento', cursive;
     color: #fff;
     font-weight: 500;
@@ -13,11 +19,11 @@
     width: 30%;
 }
 
-.blockName h3{
+.blockName h3 {
     padding: 0 0 -1em 0;
 }
 
-.images{
+.images {
     background-repeat: no-repeat;
     width: 58px;
     height: 58px;
@@ -27,155 +33,42 @@
     margin-right: 15px;
 }
 
-.nav{
-    width: 50%;
-}
-
-.navbar{
-    float: left;
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar li{
-    box-sizing: border-box;
-    padding: 28px 28px;
-
-}
-.navbar a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.main{
-    width: 10%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.containerMenu {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-}
-.containerMenu::before{
-    right: 0;
-    background-color: #2d3038;
-    left: -100%;
-}
-
-.containerMenu::after{
-    left: 50%;
-    background-color: #3c70b4;
-    right: 0;
-    z-index: -1;
-}
-
-.header .containerMenu::before{
-    position: absolute;
-    content: "";
-    top: 0;
-    width: 100%;
-    height: 76px;
-    background-color: #2d3038;
-    z-index: -1;
-}
-.header .containerMenu::after{
-
-    content: "";
-    top: 0;
-    width: 100%;
-    height: 76px;
-}
-
-
-.blockName{
-    background-color: #2d3038;
-    right: 0;
-    left: -100%;
-    height: 76px;
-    width: 40%;
-}
-
-.name{
-    font-family: 'Sacramento', cursive;
-    margin: auto;
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.6em;
-    padding: 9px 25px 10px 15px;
-
-
-}
-
 .nav {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     width: 60%;
 }
 
-.navbar{
+.mainMenu {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
     float: left;
     margin: 0;
-    padding-left: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
-
-.navbar li a{
-    color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    display: block;
-    width: 100%;
-}
-
-
-.navbar a{
-    padding: 29px 30px;
-    height: inherit;
-    position: inherit !important;
-}
-
-.contacts {
-    margin: 0 0 10px;
-    width: 280px;
-    height: 76px;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
-    float: right;
 }
 
-a {
-    color: #2d3038;
+
+.mainMenuItem a {
+    text-decoration: none;
+    color: #fff;
+    padding: 28px 28px;
 }
 
-a:hover {
-    color: #333;
+
+.mainMenuItem:hover a {
+    padding-bottom: 50px;
+    transition: all 0.5s;
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    position: center;
+    font-size: 1.2em;
 }
-*/
+
+

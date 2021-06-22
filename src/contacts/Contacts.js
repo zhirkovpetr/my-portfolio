@@ -8,6 +8,16 @@ import {InformationSkills} from '../common/components/information/informationSki
 export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
+                <div className={sContainer.container}>
+                   <div><Title title={'Contact Me'}/></div>
+                    <form className={s.form}>
+                    </form>
+                </div>
+        </div>
+
+
+
+             /*<div className={s.contactsBlock}>
             <div className={s.container}>
                 <div className={`${sContainer.container} ${s.containerContacts}`}>
                     <Title title={'Contact Me'}/>
@@ -62,8 +72,8 @@ export const Contacts = () => {
 
             </div>
         </div>
-
-    );
+*/
+    )
 }
 
 

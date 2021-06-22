@@ -46,7 +46,9 @@ a:hover {
 .icon {
     width: 20px;
     height: 20px;
+    font-size: 1.7em;
 }
+
 
 .reserved {
     margin: 0 0 10px;

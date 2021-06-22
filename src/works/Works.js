@@ -21,10 +21,12 @@ export const Works = () => {
                 <div className={s.works}>
                     <InformationSkills titleInfo={'My Recent Works'}
                                        textInfo={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'}/>
+                    <div className={s.myWorks}>
                     <Work style={social} link={'https://zhirkovpetr.github.io/social-network'}
                           title={'Social network'} description={'My social network is an opportunity to communicate with friends, listen to music, exchange photos and likes, as well as make new acquaintances. My social network is an opportunity to communicate with friends, listen to music, exchange photos and likes, as well as make new acquaintances. My social network is an opportunity to communicate with friends, listen to music, exchange photos and likes, as well as make new acquaintances.'}/>
                     <Work style={todolist} link={'https://zhirkovpetr.github.io/TodoList'}
                           title={'To do list'} description={'My todo list will help you not to forget about your business'}/>
+                    </div>
                     </div>
             </div>
         </div>
