@@ -4,7 +4,6 @@ import sContainer from '../common/styles/Container.module.css';
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import {InformationSkills} from "../common/components/information/informationSkills";
-import {LanguageSkill} from "./languageSkill/LanguageSkill";
 import {
     faHtml5,
     faCss3,
@@ -13,9 +12,10 @@ import {
     faTypo3,
     faBattleNet,
     faDashcube,
-    faWpforms, faAsymmetrik
+    faWpforms, faAsymmetrik, faGit, faJira
 } from "@fortawesome/free-brands-svg-icons";
-import {faChalkboard, faFillDrip, faListAlt} from "@fortawesome/free-solid-svg-icons";
+import {faChalkboard, faFillDrip, faGlobe, faListAlt} from "@fortawesome/free-solid-svg-icons";
+
 
 export const Skills = () => {
     return (
@@ -24,26 +24,24 @@ export const Skills = () => {
                 <Title title={'My skills'} color={'#f26522'}/>
                 <div className={s.skills}>
                     <InformationSkills titleInfo={'Experience Skill'}
-                                       textInfo={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'}
+                                       textInfo={'Libraries, programming languages, languages & tools'}
                     />
-                    <Skill title={'HTML&CSS'} icon={faHtml5} description={'I learn HTML. I learn HTML. I learn HTML. I learn HTML.I learn HTML.'}/>
-                    <Skill title={'JavaScript'} icon={faJs} description={'I learn CSS.I learn CSS.I learn CSS'}/>
-                    <Skill title={'TypeScript'} icon={faDashcube}
-                           description={'I learn JS. I learn JS.I learn JS.I learn JS.I learn JS.I learn JS'}/>
-                    <Skill title={'React'} icon={faReact}
-                           description={'I learn JS. I learn JS.I learn JS.I learn JS.I learn JS.I learn JS'}/>
-                    <Skill title={'Redux'} icon={faBattleNet}
-                           description={'I learn TS. I learn TS. I learn TS. I learn TS. I learn TS. I learn TS.'}/>
-                    <Skill title={'Axios'} icon={faAsymmetrik} description={'I learn Redax. I learn Redax. I learn Redax. I learn Redax.'}/>
-                    <Skill title={'Storybook'} icon={faChalkboard} description={'I learn React'}/>
-                    <Skill title={'Material UI'} icon={faFillDrip} description={'I learn React'}/>
-                    <Skill title={'Formik'} icon={faWpforms} description={'I learn React'}/>
-                    <Skill title={'Unit Test'} icon={faListAlt} description={'I learn React'}/>
-
-                    <InformationSkills titleInfo={'Language skill'}
-                                       textInfo={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'}/>
-
-                <LanguageSkill/>
+                    <div className={s.blockSkills}>
+                    <Skill title={'React'} icon={faReact} description={'A JavaScript library for building user interfaces.'}/>
+                    <Skill title={'Redux'} icon={faBattleNet} description={'A Predictable State Container for JS Apps.'}/>
+                    <Skill title={'JavaScript'} icon={faJs} description={'JS is a programming language that adds interactivity to your website.'}/>
+                    <Skill title={'TypeScript'} icon={faDashcube} description={'TS extends JS by adding types.'}/>
+                    <Skill title={'HTML'} icon={faHtml5} description={'HTML is a standardized document markup language for viewing web pages in a browser.'}/>
+                    <Skill title={'CSS'} icon={faCss3} description={'CSS is a formal language for describing the appearance of a document written using a markup language.'}/>
+                    <Skill title={'Axios'} icon={faAsymmetrik} description={'Axios is a promise based HTTP client for the browser and Node.js.'}/>
+                    <Skill title={'Unit Test'} icon={faListAlt} description={'Unit test is to feed something to the input of the unit and check the result at the output'}/>
+                    <Skill title={'Storybook'} icon={faChalkboard} description={'Storybook is an open source tool for developing UI components.'}/>
+                    <Skill title={'Material UI'} icon={faFillDrip} description={'Material UI is a library that allows you to create Google Material Design apps using React components.'}/>
+                    <Skill title={'Formik'} icon={faWpforms} description={'Formik is a library that helps you work with forms. It makes it easy to retrieve data from a form, validate data, display error messages, and more.'}/>
+                    <Skill title={'GIT'} icon={faGit} description={'Git is a distributed version control system that allows developers to track changes in files and work on the same project together with colleagues.'}/>
+                    <Skill title={'Jira'} icon={faJira} description={'Jira is a commercial bug system used for user interaction, although in some cases it is also used for project management.'}/>
+                    <Skill title={'English'} icon={faGlobe} description={` Pre-Intermediate. I am in the process of improving my knowledge of English.`}/>
+                    </div>
                 </div>
             </div>
         </div>

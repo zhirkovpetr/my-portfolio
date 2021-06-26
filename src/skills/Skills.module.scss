@@ -14,15 +14,17 @@
     flex-wrap: nowrap;
 
     .skills {
-      display: flex;
-      justify-content: inherit;
-      flex-wrap: wrap;
       width: 60%;
       padding-left: 15px;
       padding-right: 15px;
-      align-items: flex-start;
       @media screen and (max-width: 848px) {
         justify-content: center;
+      }
+      .blockSkills {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
       }
     }
   }
