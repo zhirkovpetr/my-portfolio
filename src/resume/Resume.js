@@ -30,6 +30,11 @@ export const Resume = () => {
                         <div className={s.Inform}>
                             <h3>Work History:</h3>
                             <div>
+                                <h5>Front-end developer @ Freelance</h5>
+                                <p>2021-present</p>
+                            </div>
+                            <hr/>
+                            <div>
                                 <h5>Occupational safety engineer @ RUPE'GRANIT'</h5>
                                 <p>2017-2020</p>
                             </div>
@@ -38,7 +43,7 @@ export const Resume = () => {
                         <InformationSkills titleInfo={'Full resume'}
                                            textInfo={'For more information, see the attached resume.'}/>
 
-                        <div className={s.buttonBlock}><button className={s.resumeButton}>{'Download My Resume as a .pdf file'}</button></div>
+                        <div className={s.buttonBlock}><a href={'./cv/CVЖирковПётр.pdf'} className={s.resumeButton} download>{'Download My Resume as a .pdf file'}</a></div>
                     </div>
                 </div>
             </div>

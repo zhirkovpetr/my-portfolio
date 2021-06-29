@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.resumeButton{
+.resumeButton {
     margin: 0 auto;
     font-size: 16px;
     padding: 10px 30px 10px 30px;
@@ -39,20 +39,32 @@
     overflow: hidden;
     z-index: 1;
     color: #fff;
+    text-decoration: none;
 }
 
-.Inform{
+.resumeButton:hover {
+    background-color: #c1171b;
+    color: #fff;
+}
+
+.resumeButton:active {
+    background-color: #90181b;
+    color: #fff;
+}
+
+
+.Inform {
     margin-bottom: 25px;
 }
 
-.Inform h3{
+.Inform h3 {
     margin-bottom: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #2d3038;
 }
 
-.Inform h5{
+.Inform h5 {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 5px;

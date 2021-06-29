@@ -27,13 +27,13 @@ export const Header = () => {
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#f26522'}} href={''}>MY WORKS</a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#ed1c24'}} href={''}>CONTACTS</a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#e10337'}} href={''}>RESUME</a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#b90162'}} href={'/telegram'} target='_blank'><FontAwesomeIcon className={s.icon}
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#b90162'}} href={'https://t.me/zhirkovpetr'} target='_blank'><FontAwesomeIcon className={s.icon}
                                                                                                                                            icon={faTelegram}/></a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#873e95'}} href={'/linkedId'} target='_blank'><FontAwesomeIcon className={s.icon}
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#873e95'}} href={'https://www.linkedin.com/in/zhirkovpetr/'} target='_blank'><FontAwesomeIcon className={s.icon}
                                                                                                                                            icon={faLinkedin}/></a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#3c70b4'}} href={'/github'} target='_blank'><FontAwesomeIcon className={s.icon}
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#3c70b4'}} href={'https://github.com/zhirkovpetr'} target='_blank'><FontAwesomeIcon className={s.icon}
                                                                                                                                          icon={faGithub}/></a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#13376a'}} href={'/instagram'} target='_blank'><FontAwesomeIcon className={s.icon}
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#13376a'}} href={'https://www.instagram.com/zhirkov_petr/'} target='_blank'><FontAwesomeIcon className={s.icon}
                                                                                                                                             icon={faInstagram}/></a></li>
                         </ul>
                     </nav>
