@@ -23,6 +23,29 @@
     padding-right: 15px;
     margin-top: 30px;
 }
+
+.form {
+    width: 100%;
+}
+
+.formGroupNameEmail {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.formControl {
+    width: 100%;
+
+}
+
+.formControlText {
+    width: 60%;
+    margin-top: 15px;
+    padding: 2px 0 2px 4px;
+}
 /*
 
 .containerContacts {

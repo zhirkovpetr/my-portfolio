@@ -16,29 +16,33 @@ export const Contacts = () => {
 
                     <form className={s.form}>
 
-                        <div className={s.formGroup}>
-                            <input className={s.formControl} type='text' name={'your-name'}
-                                   size={'40'}
-                                   placeholder='Your Name' aria-required='true'
-                                   aria-invalid='false'/>
+                        <div className={s.formGroupNameEmail}>
+                            <div className={s.formGroup}>
+                                <input className={s.formControl}
+                                   type='text'
+                                   name='name'
+                                   placeholder='Name'
+                                   required/>
+                            </div>
+
+                            <div className={s.formGroup}>
+                            <input className={s.formControl}
+                                   type='email'
+                                   name='email'
+                                   placeholder='Email' required/>
+                            </div>
                         </div>
 
                         <div className={s.formGroup}>
-                            <input className={s.formControl} type='text'
-                                   name={'your email address'}
-                                   size={'40'} placeholder='Your Email Address' aria-required='true'
-                                   aria-invalid='false'/>
+                                <input className={s.formControlText}
+                                       type='text'
+                                       name='subject'
+                                       placeholder='Subject'
+                                       required/>
                         </div>
 
                         <div className={s.formGroup}>
-                                <input className={s.formControl} type='text' name={'subject'}
-                                       size={'40'}
-                                       placeholder='Subject' aria-required='true' aria-invalid='false'/>
-                        </div>
-
-                        <div className={s.formGroup}>
-                                          <textarea className={s.formControl} name='message' cols='40' rows='10' aria-required='true'
-                                                    aria-invalid='false' placeholder='Your Message'/>
+                                          <textarea className={s.formControlText} name='message' rows='10' required placeholder='Your Message'/>
                         </div>
                         <div className={s.pushForm}>
                             <input className={s.bottom} type={'submit'} value={'Submit'}/>

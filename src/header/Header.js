@@ -22,11 +22,11 @@ export const Header = () => {
                 <div className={s.nav}>
                     <nav className={s.mainMenu}>
                         <ul className={s.navbar}>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f4bf00'}} href={''}>HOME</a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f7941d'}} href={''}>SKILLS</a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f26522'}} href={''}>MY WORKS</a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#ed1c24'}} href={''}>CONTACTS</a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#e10337'}} href={''}>RESUME</a></li>
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f4bf00'}} href={''}>home</a></li>
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f7941d'}} href={'#top'}>skills</a></li>
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f26522'}} href={''}>my works</a></li>
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#ed1c24'}} href={''}>contacts</a></li>
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#e10337'}} href={''}>resume</a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#b90162'}} href={'https://t.me/zhirkovpetr'} target='_blank'><FontAwesomeIcon className={s.icon}
                                                                                                                                            icon={faTelegram}/></a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#873e95'}} href={'https://www.linkedin.com/in/zhirkovpetr/'} target='_blank'><FontAwesomeIcon className={s.icon}

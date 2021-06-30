@@ -21,7 +21,7 @@ export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.containerSkills}`}>
-                <Title title={'My skills'} color={'#f26522'}/>
+                <a name={'top'}><Title title={'My skills'} color={'#f26522'}/></a>
                 <div className={s.skills}>
                     <InformationSkills titleInfo={'Experience Skill'}
                                        textInfo={'Libraries, programming languages, languages & tools'}

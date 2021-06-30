@@ -58,6 +58,8 @@
     text-decoration: none;
     color: #fff;
     padding: 28px 28px;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 
