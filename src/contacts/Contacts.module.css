@@ -36,15 +36,34 @@
     margin: 0;
 }
 
+.formGroup {
+    width: 100%;
+    margin-right: 10px;
+}
+
 .formControl {
     width: 100%;
-
 }
 
 .formControlText {
     width: 60%;
     margin-top: 15px;
     padding: 2px 0 2px 4px;
+}
+
+.pushForm {
+    margin: 20px 40px 0 0;
+}
+
+.bottom {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: #ff0;
+    border: 1px solid #2d3038;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 3px;
 }
 /*
 

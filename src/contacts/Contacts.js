@@ -33,7 +33,7 @@ export const Contacts = () => {
                             </div>
                         </div>
 
-                        <div className={s.formGroup}>
+                        <div >
                                 <input className={s.formControlText}
                                        type='text'
                                        name='subject'
@@ -41,7 +41,7 @@ export const Contacts = () => {
                                        required/>
                         </div>
 
-                        <div className={s.formGroup}>
+                        <div >
                                           <textarea className={s.formControlText} name='message' rows='10' required placeholder='Your Message'/>
                         </div>
                         <div className={s.pushForm}>

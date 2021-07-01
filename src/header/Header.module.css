@@ -33,10 +33,6 @@
     margin-right: 15px;
 }
 
-.nav {
-    width: 60%;
-}
-
 .mainMenu {
     margin: 0;
     padding: 0;
@@ -44,13 +40,11 @@
 
 
 .navbar {
-    float: left;
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 
