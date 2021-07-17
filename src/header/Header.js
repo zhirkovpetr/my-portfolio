@@ -1,11 +1,8 @@
 import s from './Header.module.css';
 import sContainer from "../common/styles/Container.module.css";
 import React from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faInstagram, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
 import MyImage from '../assets/pictures/photo_2021-06-21_15-26-44.jpg';
-import {Nav} from './nav/Nav';
-
+import {Nav} from "./nav/Nav";
 
 export const Header = () => {
     const myImages = {
@@ -20,14 +17,18 @@ export const Header = () => {
                     <div className={s.images} style={myImages}/>
                     <div><h3>Petr Zhirkov</h3></div>
                 </div>
-
-                <Nav />
-                <div className={s.headerBurger} >
-                    <span> </span>
+                <Nav/>
+                <div className={s.headerBurger}>
+                    <div className={`${s.line} ${s.lineOne}`}/>
+                    <div className={`${s.line} ${s.lineTwo}`}/>
+                    <div className={`${s.line} ${s.lineTree}`}/>
                 </div>
             </div>
         </div>
     );
 }
+
+
+
 
 

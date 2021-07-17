@@ -23,6 +23,37 @@
 }
 
 
+
+@media screen and (max-width: 1430px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        transform: translate(0, 100%);
+        transition: transform .5s ease-in;
+        z-index: 0;
+    }
+    .navbar li {
+        opacity: 0;
+    }
+}
+
+.navbarActive {
+    transform: translateX(0%);
+}
+
+@keyframes navLinksFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+
 .mainMenuItem a {
     text-decoration: none;
     color: #fff;
