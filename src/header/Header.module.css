@@ -83,6 +83,11 @@
     transition: all .4s ease;
 }
 
+.toggle {
+    z-index: 4;
+    cursor: pointer;
+}
+
 .toggle .lineOne {
     transform: rotate(-45deg) translate(-5px, 6px);
 }

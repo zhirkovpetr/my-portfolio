@@ -4,11 +4,12 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faInstagram, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
 
 
-export const Nav = () => {
+export const Nav = ({active}) => {
+
     return (
         <div className={s.nav}>
             <nav className={s.mainMenu}>
-                <ul className={s.navbar}>
+                <ul className={active ? s.navbarActive : s.navbar}>
                     <li className={s.mainMenuItem}><a style={{backgroundColor: '#f4bf00'}} href={''}>home</a></li>
                     <li className={s.mainMenuItem}><a style={{backgroundColor: '#f7941d'}} href={''}>skills</a></li>
                     <li className={s.mainMenuItem}><a style={{backgroundColor: '#f26522'}} href={''}>my works</a></li>
