@@ -9,7 +9,7 @@ export const Skill = (props) => {
             <div className={s.icons}>
                 <FontAwesomeIcon className={s.icon} icon={props.icon}/>
             </div>
-            <h4 className={s.projectTitle}>{props.title}</h4>
+            <h3 className={s.projectTitle}>{props.title}</h3>
             <span className={s.description}>{props.description}</span>
         </div>
     );

@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Skills.module.scss';
 import sContainer from '../common/styles/Container.module.css';
+import sInformation from '../common/styles/Information.module.css';
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import {InformationSkills} from "../common/components/information/informationSkills";
@@ -21,8 +22,8 @@ export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.containerSkills}`}>
-                <a name={'top'}><Title title={'My skills'} color={'#f26522'}/></a>
-                <div className={s.skills}>
+                <Title title={'My skills'}/>
+                <div className={sInformation.information}>
                     <InformationSkills titleInfo={'Experience Skill'}
                                        textInfo={'Libraries, programming languages, languages & tools'}
                     />

@@ -6,27 +6,21 @@
   background-color: $bgColor;
   box-sizing: border-box;
   width: 100%;
+  display: flex;
+  align-items: flex-start;
+
 
   .containerWorks {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    flex-wrap: nowrap;
 
-    .works {
-      flex-wrap: wrap;
-      width: 60%;
-      padding-left: 15px;
-      padding-right: 15px;
 
       .myWorks {
         display: flex;
         justify-content: space-between;
-        @media screen and (min-width: 1119px) {
-          justify-content: space-between;
-        }
+
       }
-    }
   }
 }
 

@@ -1,4 +1,18 @@
 .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: -webkit-fill-available;
     background: rgba(45, 48, 56, 1);
     background: -moz-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
     background: -webkit-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
@@ -6,17 +20,21 @@
     background: -ms-linear-gradient(left, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
     background: linear-gradient(to right, rgba(45, 48, 56, 1) 0%, rgba(45, 48, 56, 1) 55%, rgba(19, 55, 106, 1) 60%, rgba(19, 55, 106, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d3038', endColorstr='#13376a', GradientType=1);
+    z-index: 2;
 }
 
 .blockName {
+    position: relative;
+    display: flex;
+    align-items: center;
     font-family: 'Sacramento', cursive;
     color: #fff;
     font-weight: 500;
     font-size: 1.9em;
     padding: 9px 25px 10px 15px;
-    display: flex;
-    align-items: center;
-    width: 30%;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
 }
 
 .blockName h3 {
@@ -24,6 +42,7 @@
 }
 
 .images {
+    max-width: 100%;
     background-repeat: no-repeat;
     width: 58px;
     height: 58px;
@@ -31,20 +50,67 @@
     background-size: cover;
     background-position: 50%;
     margin-right: 15px;
+    display: block;
 }
 
-.mainMenu {
-    margin: 0;
-    padding: 0;
+.headerBurger {
+    display: none;
 }
 
+@media screen and (max-width: 1440px) {
+    .headerBurger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    .headerBurger span {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 2px;
+        right: 0;
+        left: 0;
+        top: 9px;
+    }
+    .headerBurger::before,
+    .headerBurger::after {
+        content: "";
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        right: 0;
+    }
+    .headerBurger::before {
+        top: 0;
+    }
+    .headerBurger::after {
+        bottom: 0;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translate(0, 100%);
+        flex-direction: column;
+    }
+}
 
 .navbar {
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
 }
 
 
@@ -52,14 +118,18 @@
     text-decoration: none;
     color: #fff;
     padding: 28px 28px;
+    box-sizing: border-box;
     text-transform: uppercase;
     white-space: nowrap;
+    display: block;
 }
 
 
 .mainMenuItem:hover a {
     padding-bottom: 50px;
+    box-sizing: border-box;
     transition: all 0.5s;
+    display: inherit;
 }
 
 .icon {

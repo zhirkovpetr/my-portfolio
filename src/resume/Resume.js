@@ -3,13 +3,14 @@ import s from './Resume.module.css';
 import sContainer from "../common/styles/Container.module.css";
 import {Title} from "../common/components/title/Title";
 import {InformationSkills} from "../common/components/information/informationSkills";
+import sInformation from "../common/styles/Information.module.css";
 
 export const Resume = () => {
     return (
         <div className={s.resumeBlock}>
             <div className={`${sContainer.container} ${s.containerResume}`}>
                 <Title title={'My Resume'}/>
-                <div className={s.resume}>
+                <div className={sInformation.information}>
 
                     <div>
                         <div className={s.Inform}>

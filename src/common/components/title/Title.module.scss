@@ -2,11 +2,10 @@
 @import './src/common/styles/sass/mixins';
 
 .title {
-    @include text(25px, 1.2, $TitleColor, 400);
+    @include text(50px, 1.2, $TitleColor, 400);
     margin: 0 0 30px;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 20px 15px;
     & h1{
         margin: 0;
     }
@@ -14,7 +13,7 @@
         content: '';
         position: absolute;
         background-color: #f26522;
-        width: 75px;
+        width: 150px;
         height: 2px;
         bottom: -5px;
         left: 50%;

@@ -3,6 +3,7 @@ import s from './Contacts.module.css';
 import sContainer from '../common/styles/Container.module.css';
 import {Title} from '../common/components/title/Title';
 import {InformationSkills} from '../common/components/information/informationSkills';
+import sInformation from "../common/styles/Information.module.css";
 
 
 export const Contacts = () => {
@@ -10,7 +11,7 @@ export const Contacts = () => {
         <div className={s.contactsBlock}>
             <div className={`${sContainer.container} ${s.containerContacts}`}>
                 <Title title={'Contact me'}/>
-                <div className={s.contacts}>
+                <div className={sInformation.information}>
                     <InformationSkills titleInfo={'Leave me a message'}
                                        textInfo={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'}/>
 

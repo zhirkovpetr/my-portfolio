@@ -11,6 +11,7 @@ export const Header = () => {
         backgroundImage: `url(${MyImage})`
     }
     return (
+
         <div className={s.header}>
             <div className={sContainer.container}>
 
@@ -18,12 +19,15 @@ export const Header = () => {
                     <div className={s.images} style={myImages}/>
                     <div><h3>Petr Zhirkov</h3></div>
                 </div>
+                <div className={s.headerBurger} >
+                    <span> </span>
+                </div>
 
                 <div className={s.nav}>
                     <nav className={s.mainMenu}>
                         <ul className={s.navbar}>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#f4bf00'}} href={''}>home</a></li>
-                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f7941d'}} href={'#top'}>skills</a></li>
+                            <li className={s.mainMenuItem}><a style={{backgroundColor: '#f7941d'}} href={''}>skills</a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#f26522'}} href={''}>my works</a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#ed1c24'}} href={''}>contacts</a></li>
                             <li className={s.mainMenuItem}><a style={{backgroundColor: '#e10337'}} href={''}>resume</a></li>

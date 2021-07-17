@@ -10,17 +10,6 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    flex-wrap: nowrap;
-}
-
-.resume {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 60%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 30px;
 }
 
 .buttonBlock {
